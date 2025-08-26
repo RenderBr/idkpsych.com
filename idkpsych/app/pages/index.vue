@@ -27,8 +27,8 @@
         </p>
 
         <div>
-            <img src="../../signature-black.png" alt="Julian Seitz" class="block dark:hidden"/>
-            <img src="../../signature-white.png" alt="Julian Seitz" class="hidden dark:block"/>
+            <NuxtImg src="/signature-black.png" alt="Julian Seitz" class="block dark:hidden"/>
+            <NuxtImg src="/signature-white.png" alt="Julian Seitz" class="hidden dark:block"/>
         </div>
     </div>
 </template>
