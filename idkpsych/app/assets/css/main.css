@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+* {
+  --primary-colour: #66b7dd;
+  --secondary-colour: #343028;
+  --bg-colour: white;
+}
+
+/*
+Dark selector
+*/
+@media (prefers-color-scheme: dark) {
+  * {
+    --bg-colour: #030712;
+    --secondary-colour: #bcd0da;
+  }
+}
+
+:root {
+  background-color: var(--bg-colour);
+  color: var(--secondary-colour);
+}
+
+@theme {
+  --color-primary: var(--primary-colour);
+  --color-secondary: var(--secondary-colour);
+  --color-bg: var(--bg-colour);
+}
