@@ -1,4 +1,4 @@
-# idkpsych.com
+# [idkpsych.com](https://idkpsych.com)
 
 This is the repository for my personal website, idkpsych.com. It's a place where I share my thoughts and writings.
 
