@@ -2,7 +2,7 @@
 
 const route = useRoute()
 const { data: page } = await useAsyncData(route.path, () => {
-    return queryCollection('content').all()
+    return queryCollection('content').order('meta', 'ASC').all()
 })
 </script>
 
@@ -11,6 +11,10 @@ const { data: page } = await useAsyncData(route.path, () => {
         <h2 class="text-primary text-3xl tracking-wider font-bold">
             stream of consciousness
         </h2>
+
+        <p class="text-secondary/60">
+            where the conscious flows, and ideas intertwine. a stream, of all ideas free.
+        </p>
 
         <hr class="text-primary/20 my-1" />
 

@@ -18,6 +18,10 @@
                 <li>
                     <NuxtLink to="/stream" class="text-primary hover:underline underline sm:no-underline">stream of consciousness</NuxtLink>
                 </li>
+
+                <li>
+                    <NuxtLink to="/streams/" class="text-primary hover:underline underline sm:no-underline">ideas</NuxtLink>
+                </li>
             </ul>
         </div>
     </div>
