@@ -20,19 +20,31 @@
             i struggle with anxiety, depression, and addiction (substance abuse). part of why i am interested in
             psychology is to understand myself better, and to help others who might be going through similar challenges.
             <br /><br />
+        </p>
+
+        <h3 class="text-red-500/80 text-xl leading-tight">disclaimer:</h3>
+        <p class="mb-4 max-w-[90ch]">
             i am not a doctor, therapist, or licensed professional. this website is not a substitute for professional
-            help. if you are struggling with mental health issues, please reach out to a qualified professional.
-            <br /><br />
-            i'm simply a passionate soul, who craves real connection and understanding.
+            help. <strong>if you are struggling with mental health issues, please reach out to a qualified
+                professional.</strong>
+            <br>
+            i'm simply a passionate soul, one that enjoys real connection and understanding.
         </p>
 
         <div>
-            <NuxtImg src="/signature-black.png" alt="Julian Seitz" class="block dark:hidden"/>
-            <NuxtImg src="/signature-white.png" alt="Julian Seitz" class="hidden dark:block"/>
+            <NuxtImg width="300px" height="100px" src="/img/signature-black.webp" alt="Julian Seitz"
+                class="block dark:hidden" fetchpriority="high" preload />
+            <NuxtImg width="300px" height="100px" src="/img/signature-white.webp" alt="Julian Seitz"
+                class="hidden dark:block" fetchpriority="high" preload />
         </div>
     </div>
 </template>
 
 <script lang="ts" setup>
+
+useSeoMeta({
+    title: "idkpsych.com - cognitive psychology ramblings",
+    description: "a personal psychology blog, where i share my thoughts and findings in my own mental health journey"
+})
 
 </script>
