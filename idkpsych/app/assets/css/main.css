@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 * {
-  --primary-colour: #66b7dd;
+  --primary-colour: #195a76;
   --secondary-colour: #343028;
   --bg-colour: white;
 }
@@ -12,6 +12,7 @@ Dark selector
 @media (prefers-color-scheme: dark) {
   * {
     --bg-colour: #030712;
+    --primary-colour: #66b7dd;
     --secondary-colour: #bcd0da;
   }
 }

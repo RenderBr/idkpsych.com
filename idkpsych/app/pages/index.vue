@@ -1,3 +1,10 @@
+<script lang="ts" setup>
+useSeoMeta({
+    title: "idkpsych.com - cognitive psychology ramblings",
+    description: "a personal psychology blog, where i share my thoughts and findings in my own mental health journey"
+})
+</script>
+
 <template>
     <div>
         <h2 class="text-primary text-3xl tracking-wider font-bold">
@@ -39,12 +46,3 @@
         </div>
     </div>
 </template>
-
-<script lang="ts" setup>
-
-useSeoMeta({
-    title: "idkpsych.com - cognitive psychology ramblings",
-    description: "a personal psychology blog, where i share my thoughts and findings in my own mental health journey"
-})
-
-</script>

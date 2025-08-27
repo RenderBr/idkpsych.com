@@ -19,7 +19,7 @@ useSeoMeta({
         </article>
     </div>
     <div v-else>this specific stream wasn't found... maybe you can find it here? <NuxtLink
-            class="text-primary hover:underline" to="/streams">Back to streams
+            class="text-primary hover:underline" to="/streams">back to streams.
         </NuxtLink>
     </div>
 </template>

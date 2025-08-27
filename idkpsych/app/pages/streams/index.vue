@@ -1,6 +1,10 @@
 <script setup lang="ts">
 const { data: ideas } = await useAsyncData(() => queryCollection('content').all())
 
+useSeoMeta({
+    title: 'ideas',
+    description: 'a list of all ideas written about on the site, with descriptions'
+})
 </script>
 
 <template>

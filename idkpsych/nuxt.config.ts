@@ -30,6 +30,7 @@ export default defineNuxtConfig({
       alias: {
         h1: 'Heading1',
         p: 'Paragraph',
+        li: 'ListItem'
       }
     }
   },

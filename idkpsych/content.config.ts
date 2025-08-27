@@ -12,6 +12,7 @@ export default defineContentConfig({
                         title: z.string().min(2).max(100),
                         description: z.string().max(500).optional(),
                         date: z.date().optional(),
+                        weight: z.number().min(0).optional()
                     })
                 }))
     }

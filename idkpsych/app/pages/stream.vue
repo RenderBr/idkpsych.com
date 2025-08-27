@@ -1,8 +1,12 @@
 <script lang="ts" setup>
-
 const route = useRoute()
 const { data: page } = await useAsyncData(route.path, () => {
-    return queryCollection('content').order('meta', 'ASC').all()
+    return queryCollection('content').order('weight', 'DESC').all()
+})
+
+useSeoMeta({
+    title: "stream of consciousness",
+    description: "a stream of all ideas featured on this site, generally psychology or behavior-related"
 })
 </script>
 
