@@ -4,6 +4,7 @@ slug: "noise"
 description: "noise is oftentimes loud"
 date: 2025-08-25
 weight: 1000
+tags: [ "mindfulness", "cognitive defusion", "intrusive thoughts" ]
 ---
 
 # noise

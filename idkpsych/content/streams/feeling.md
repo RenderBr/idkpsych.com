@@ -3,6 +3,7 @@ title: "feeling"
 slug: "feeling"
 description: "they are not negative, nor positive. instead, they are what we get."
 date: 2025-08-26
+tags: [ "emotional regulation", "mindfulness", "acceptance" ]
 ---
 
 # feeling

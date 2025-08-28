@@ -13,7 +13,8 @@ export default defineContentConfig({
                         description: z.string().max(500).optional(),
                         date: z.date().optional(),
                         weight: z.number().min(0).optional(),
-                        slug: z.string().min(2).max(100).optional()
+                        slug: z.string().min(2).max(100).optional(),
+                        tags: z.array(z.string().min(2).max(100)).optional()
                     })
                 }))
     }

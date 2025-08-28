@@ -4,6 +4,7 @@ slug: "im-thankful-for-my-mind"
 description: "your mind is a storyteller."
 date: 2025-08-25
 weight: 999
+tags: [ "gratitude", "mindfulness", "thoughts" ]
 ---
 
 # i'm thankful for my mind
