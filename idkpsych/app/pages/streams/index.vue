@@ -23,15 +23,13 @@ defineRouteRules({
                     class="p-3 bg-primary/5 my-3 rounded-xl border-primary/10 shadow-primary border-2">
                     <h3 :id="idea.id" class="text-primary font-black font-mono text-xl">{{ idea.title }}</h3>
                     <p class="text-secondary/60 mb-2">{{ idea.description }}</p>
-                    <div class="flex justify-between">
+                    <div class="flex sm:flex-row flex-col gap-2 sm:gap-0 justify-between">
                         <NuxtLink :to="`/streams/${idea.slug}`" class="text-primary hover:underline">
                             read more
                         </NuxtLink>
 
-                        <div class="flex">
-                            <ArticleTagBadge v-for="tag in idea.tags" :key="tag">
-                                {{ tag }}
-                            </ArticleTagBadge>
+                        <div class="flex sm:flex-row flex-col gap-2 shrink">
+                            <ArticleTagBadge v-for="tag in idea.tags" :key="tag" :text="tag" />
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,51 @@
+[
+  {
+    "tag": "mindfulness",
+    "color": {
+      "text": "#FFFFFF",
+      "background": "#450A0A"
+    }
+  },
+  {
+    "tag": "emotional regulation",
+    "color": {
+      "text": "#FFFFFF",
+      "background": "#365314"
+    }
+  },
+  {
+    "tag": "acceptance",
+    "color": {
+      "text": "#FFFFFF",
+      "background": "#7F1D1D"
+    }
+  },
+  {
+    "tag": "gratitude",
+    "color": {
+      "text": "#FFFFFF",
+      "background": "#172554"
+    }
+  },
+  {
+    "tag": "thoughts",
+    "color": {
+      "text": "#000000",
+      "background": "#FFF7ED"
+    }
+  },
+  {
+    "tag": "cognitive defusion",
+    "color": {
+      "text": "#000000",
+      "background": "#FEF9C3"
+    }
+  },
+  {
+    "tag": "intrusive thoughts",
+    "color": {
+      "text": "#000000",
+      "background": "#E2E8F0"
+    }
+  }
+]

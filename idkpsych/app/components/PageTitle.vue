@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-primary text-3xl tracking-wider font-bold" :class="{'mb-2': props.subtitle, 'mb-3': !props.subtitle}">
+    <h2 class="text-primary text-3xl tracking-wider font-bold text-shadow-md" :class="{'mb-2': props.subtitle, 'mb-3': !props.subtitle}">
       {{ props.title }}
     </h2>
 
