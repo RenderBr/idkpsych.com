@@ -11,12 +11,7 @@ defineRouteRules({
 
 <template>
     <div>
-        <h2 class="text-primary text-3xl tracking-wider font-bold">
-            welcome
-        </h2>
-
-        <hr class="text-primary/20 my-1">
-
+        <PageTitle title="welcome" />
         <p class="max-w-[90ch]">
             hi, my name is julian seitz. i am a student of software development, and a psychology hobbyist.
             <br><br>

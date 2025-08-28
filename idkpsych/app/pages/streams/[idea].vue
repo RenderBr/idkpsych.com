@@ -17,7 +17,7 @@ defineRouteRules({
 <template>
     <div v-if="idea" class=" flex justify-center w-full">
         <article 
-            class="max-w-[108ch] text-[15px] leading-[1.6] tracking-tight
+            class="max-w-[118ch] text-[15px] leading-[1.6] tracking-tight
             space-y-6 dark:text-secondary/80 antialiased
             selection:bg-primary/20">
             <ContentRenderer :value="idea" />
