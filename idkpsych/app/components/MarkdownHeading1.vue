@@ -1,5 +1,5 @@
 <template>
-    <h2 @click="gotoStream" ref="anchor" class="text-xl mt-2 mb-4 font-bold text-primary relative hover:underline cursor-pointer">
+    <h2 ref="anchor" class="text-xl mt-2 mb-4 font-bold text-primary relative hover:underline cursor-pointer" @click="gotoStream">
         <slot />
     </h2>
 </template>

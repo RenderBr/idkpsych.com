@@ -8,6 +8,10 @@ useSeoMeta({
     title: "stream of consciousness",
     description: "a stream of all ideas featured on this site, generally psychology or behavior-related"
 })
+
+defineRouteRules({
+    swr: 3600
+})
 </script>
 
 <template>
@@ -20,12 +24,13 @@ useSeoMeta({
             where the conscious flows, and ideas intertwine. a stream, of all ideas free.
         </p>
 
-        <hr class="text-primary/20 my-1" />
+        <hr class="text-primary/20 my-1">
 
         <div class=" flex justify-center w-full">
-            <article class="max-w-[108ch] text-[15px] leading-[1.6] tracking-tight
-                            space-y-6 dark:text-secondary/80 antialiased
-                            selection:bg-primary/20">
+            <article 
+                class="max-w-[108ch] text-[15px] leading-[1.6] tracking-tight
+                space-y-6 dark:text-secondary/80 antialiased
+                selection:bg-primary/20">
                 <ContentRenderer v-for="item in page" :key="item.id" :value="item" />
             </article>
         </div>

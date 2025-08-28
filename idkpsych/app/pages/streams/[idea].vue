@@ -8,13 +8,18 @@ useSeoMeta({
     title: idea.value?.title,
     description: idea.value?.description
 })
+
+defineRouteRules({
+    swr: 3600
+})
 </script>
 
 <template>
     <div v-if="idea" class=" flex justify-center w-full">
-        <article class="max-w-[108ch] text-[15px] leading-[1.6] tracking-tight
-                            space-y-6 dark:text-secondary/80 antialiased
-                            selection:bg-primary/20">
+        <article 
+            class="max-w-[108ch] text-[15px] leading-[1.6] tracking-tight
+            space-y-6 dark:text-secondary/80 antialiased
+            selection:bg-primary/20">
             <ContentRenderer :value="idea" />
         </article>
     </div>

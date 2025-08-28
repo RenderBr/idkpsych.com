@@ -1,5 +1,5 @@
 <template>
     <li class="list-disc list-inside">
-        <slot></slot>
+        <slot />
     </li>
 </template>
