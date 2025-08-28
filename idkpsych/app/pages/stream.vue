@@ -10,7 +10,7 @@ useSeoMeta({
 })
 
 defineRouteRules({
-    swr: 3600
+    prerender: true
 })
 </script>
 

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Navbar />
+        <GlobalNavbar />
         <div class="shadow-sm shadow-primary rounded-2xl mt-4">
             <slot />
         </div>
