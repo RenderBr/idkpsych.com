@@ -1,11 +1,12 @@
 ---
 title: "thanks mind"
+slug: "im-thankful-for-my-mind"
 description: "your mind is a storyteller."
 date: 2025-08-25
 weight: 999
 ---
 
-# i'm thankful for my mind.
+# i'm thankful for my mind
 
 “thanks mind.” it's like, burning toast, and your smoke detector goes off. is something wrong? no.
 

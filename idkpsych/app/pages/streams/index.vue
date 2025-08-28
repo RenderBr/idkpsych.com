@@ -19,7 +19,7 @@ useSeoMeta({
             <div v-for="idea in ideas" :key="idea.id" class="p-3 bg-primary/5 my-3 rounded-xl border-primary/10 shadow-primary border-2">
                 <h3 class="text-primary font-black font-mono text-xl" :id="idea.id">{{ idea.title }}</h3>
                 <p class="text-secondary/60 mb-2">{{ idea.description }}</p>
-                <NuxtLink :to="`/streams/${idea.title}`" class="text-primary hover:underline">read more</NuxtLink>
+                <NuxtLink :to="`/streams/${idea.slug}`" class="text-primary hover:underline">read more</NuxtLink>
             </div>
         </div>
         <div v-else>

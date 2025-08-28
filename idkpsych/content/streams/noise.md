@@ -1,5 +1,6 @@
 ---
 title: "noise"
+slug: "noise"
 description: "noise is oftentimes loud"
 date: 2025-08-25
 weight: 1000

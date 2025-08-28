@@ -1,5 +1,6 @@
 ---
 title: "feeling"
+slug: "feeling"
 description: "they are not negative, nor positive. instead, they are what we get."
 date: 2025-08-26
 ---
@@ -44,7 +45,7 @@ say to yourself: “i'm upset. and i'm allowed to be.”
 
 think about why you're upset. think about where you feel it in your body. notice it.
 
-then, just sit with the feeling. if it's uncomfortable, even better. slowly, you'll train yourself emotions aren't actually bad.
+then, sit with the feeling. if it's uncomfortable, even better. slowly, you'll train yourself emotions aren't actually bad.
 
 they also aren't good. they just are.
 
@@ -67,3 +68,10 @@ we all feel things, and they area generally internal physical chemical reactions
 
 just the brain observing and firing different hormones and chemicals based on what it instinctively thinks it should do
 
+to enforce this idea of "emotions are just emotions, and nothing more", consider fear
+
+generally, we believe fear to be unwanted, and it feels uncomfortable
+
+why then, do horror movies exist? why are haunted houses so damn popular?
+
+because maybe the discomfort we feel from trying to push feelings away is what makes them uncomfortable

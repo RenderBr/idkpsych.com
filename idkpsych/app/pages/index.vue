@@ -29,7 +29,7 @@ useSeoMeta({
             <br /><br />
         </p>
 
-        <h3 class="text-red-500/80 text-xl leading-tight">disclaimer:</h3>
+        <h3 class="text-red-500/80 text-xl leading-tight not-dark:font-bold">disclaimer:</h3>
         <p class="mb-4 max-w-[90ch]">
             i am not a doctor, therapist, or licensed professional. this website is not a substitute for professional
             help. <strong>if you are struggling with mental health issues, please reach out to a qualified
