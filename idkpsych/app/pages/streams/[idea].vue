@@ -16,12 +16,9 @@ defineRouteRules({
 
 <template>
     <div v-if="idea" class=" flex justify-center w-full">
-        <article 
-            class="max-w-[118ch] text-[15px] leading-[1.6] tracking-tight
-            space-y-6 dark:text-secondary/80 antialiased
-            selection:bg-primary/20">
+        <ArticleWrapper>
             <ContentRenderer :value="idea" />
-        </article>
+        </ArticleWrapper>
     </div>
     <div v-else>this specific stream wasn't found... maybe you can find it here? <NuxtLink
             class="text-primary hover:underline" to="/streams">back to streams.
