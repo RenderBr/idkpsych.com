@@ -98,7 +98,7 @@ function addMatches(text: string, words: string[]): string[] {
 function submitRewrittenThought() {
   rewrittenThought.value = rewrittenThoughtInput.value?.userInput || '';
   rewrittenThoughtFeeling.value = rewrittenThoughtFeelingSlider.value?.value || 0;
-  currentStageIndex.value = 3;
+  currentStageIndex.value = COMPARISON_STAGE;
 }
 
 function resetExperience() {
