@@ -47,5 +47,19 @@
       "text": "#000000",
       "background": "#E2E8F0"
     }
+  },
+  {
+    "tag": "habits",
+    "color": {
+      "text": "#000000",
+      "background": "#F1F5F9"
+    }
+  },
+  {
+    "tag": "behaviour",
+    "color": {
+      "text": "#FFFFFF",
+      "background": "#14532D"
+    }
   }
 ]
