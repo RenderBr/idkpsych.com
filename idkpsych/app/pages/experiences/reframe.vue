@@ -47,10 +47,7 @@ const rewrittenThoughtFeeling = ref(0);
 const originalThoughtInput = ref();
 const originalThoughtFeelingSlider = ref();
 
-function submitNegativeThought(value: string) {
-  negativeThought.value = value;
-  negativeFeeling.value = originalThoughtFeelingSlider.value?.value || 0;
-  currentStageIndex.value = 1;
+  currentStageIndex.value = REVIEW_STAGE;
 
   // normalize string for regex
   const normalizedValue = value.trim().toLowerCase();
