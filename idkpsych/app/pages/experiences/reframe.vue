@@ -47,6 +47,9 @@ const rewrittenThoughtFeeling = ref(0);
 const originalThoughtInput = ref();
 const originalThoughtFeelingSlider = ref();
 
+function submitNegativeThought(value: string) {
+  negativeThought.value = value;
+  negativeFeeling.value = originalThoughtFeelingSlider.value?.value || 0;
   currentStageIndex.value = REVIEW_STAGE;
 
   // normalize string for regex
@@ -102,7 +105,7 @@ function submitRewrittenThought() {
 }
 
 function resetExperience() {
-  currentStageIndex.value = 0;
+  currentStageIndex.value = WRITING_STAGE;
   negativeThought.value = '';
   rewrittenThought.value = '';
   negativeFeeling.value = 0;
