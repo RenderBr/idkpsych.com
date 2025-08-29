@@ -1,6 +1,6 @@
 import fs from 'fs';
 import { Colors } from '~~/shared/types/ColorSet';
-import { TagColor } from '~~/shared/types/TagColor';
+import type { TagColor } from '~~/shared/types/TagColor';
 
 export default defineEventHandler(async (event) => {
   const query = getQuery(event);
