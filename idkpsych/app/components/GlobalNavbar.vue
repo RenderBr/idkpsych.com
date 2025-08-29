@@ -22,6 +22,10 @@
                 <li>
                     <NuxtLink to="/streams/" class="text-primary hover:underline underline sm:no-underline">ideas</NuxtLink>
                 </li>
+
+                <li>
+                    <NuxtLink to="/experiences/" class="text-primary hover:underline underline sm:no-underline">experiences</NuxtLink>
+                </li>
             </ul>
         </div>
     </div>

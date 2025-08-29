@@ -4,6 +4,7 @@
   --primary-colour: #195a76;
   --secondary-colour: #343028;
   --bg-colour: #FAFAFA;
+  text-transform: lowercase;
 }
 
 /*

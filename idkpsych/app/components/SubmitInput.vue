@@ -20,6 +20,8 @@ function submit() {
 
 const userInput = ref("");
 
+defineExpose({ userInput })
+
 </script>
 
 <template>
