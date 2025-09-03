@@ -61,5 +61,12 @@
       "text": "#FFFFFF",
       "background": "#14532D"
     }
+  },
+  {
+    "tag": "desire",
+    "color": {
+      "text": "#FFFFFF",
+      "background": "#1E3A8A"
+    }
   }
 ]
