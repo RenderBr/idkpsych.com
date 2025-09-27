@@ -42,4 +42,15 @@ export default defineNuxtConfig({
   experimental: {
     inlineRouteRules: true,
   },
+  app: {
+    head: {
+      script: [
+        {
+          src: 'https://stats.trafficinsights.info/script',
+          defer: true,
+          type: 'text/javascript'
+        }
+      ]
+    }
+  }
 })
